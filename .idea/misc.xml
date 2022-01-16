@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/drawable/shape_rectangle.xml" value="0.19791666666666666" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_b.xml" value="0.1" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_input_image.xml" value="0.25808189655172414" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_main_place.xml" value="0.264" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_paint.xml" value="0.13360507246376813" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_show_text.xml" value="0.20697463768115942" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/pageb.xml" value="0.264" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/typename.xml" value="0.264" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/welcome.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
