@@ -4,10 +4,15 @@
 以及可以幫寵物取名進入主畫面
 
 TO兩個超棒的AS組員:
+---
 新增內容於build.gradle及app/build.gradle檔案內
+
 另外會自動生成python資料夾，但要手動在裡面新增script.py檔
+
 並把app/src/main/python/script.py的內容貼上去
+
 還有更改app/src/main/java/com/example/myapplication/input_image.java
+
 這些當然都是直接貼上去沒有問題der~
 
 -
