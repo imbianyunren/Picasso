@@ -7,13 +7,11 @@ TO兩個超棒的AS組員:
 ---
 新增內容於build.gradle(對應到Project: My_Application)及app/build.gradle(對應到Module: MyApplication.app)檔案內
 
-另外會自動生成python資料夾，但要手動在裡面新增script.py檔
+上面新增完後會自動生成python資料夾，但要手動在裡面新增script.py檔
 
 並把app/src/main/python/script.py的內容貼上去
 
-還有更改app/src/main/java/com/example/myapplication/input_image.java
-
-這些當然都是直接貼上去沒有問題der~
+app/src/main/java/com/example/myapplication/input_image.java的內容也貼到input_image.java中
 
 
 因為有使用python界接，因此需要安裝python才能夠執行
