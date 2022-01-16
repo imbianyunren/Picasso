@@ -5,7 +5,7 @@
 
 TO兩個超棒的AS組員:
 ---
-新增內容於build.gradle及app/build.gradle檔案內
+新增內容於build.gradle(對應到Project: My_Application)及app/build.gradle(對應到Module: MyApplication.app)檔案內
 
 另外會自動生成python資料夾，但要手動在裡面新增script.py檔
 
@@ -18,6 +18,6 @@ TO兩個超棒的AS組員:
 
 因為有使用python界接，因此需要安裝python才能夠執行
 
-### 另外需修改build.gradle(:app)內的42行，嵌入您電腦python.exe的位置(大部分windows用戶的python.exe位於此)
+### 可能需修改build.gradle(:app)內的42行，嵌入您電腦python.exe的位置(大部分windows用戶的python.exe位於此)
 ![image](https://user-images.githubusercontent.com/60705979/149674692-355a50d8-5253-4ff5-ab87-037c56a6dcd9.png)
 
