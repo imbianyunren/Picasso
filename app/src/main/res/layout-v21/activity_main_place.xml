@@ -234,16 +234,14 @@
         android:id="@+id/left1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="620dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
         android:text="   food-5\nenergy+10"
         android:textColor="#431C10"
         android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
         app:layout_constraintEnd_toEndOf="@+id/eat_button"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/eat_button"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/eat_button" />
 
     <Button
         android:id="@+id/eat_button"
@@ -304,19 +302,14 @@
         android:id="@+id/left2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="620dp"
         android:layout_marginBottom="15dp"
         android:text="money+15\n energy-30"
         android:textColor="#431C10"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="@+id/work_button"
-        app:layout_constraintHorizontal_bias="0.55"
-        app:layout_constraintStart_toStartOf="@+id/work_button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="@+id/work_button" />
 
     <Button
         android:id="@+id/travel_button"
@@ -335,23 +328,19 @@
         android:id="@+id/right2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="620dp"
         android:layout_marginBottom="15dp"
         android:text=" food+15\nenergy-10"
         android:textColor="#431C10"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/view7"
         app:layout_constraintEnd_toEndOf="@+id/travel_button"
-        app:layout_constraintHorizontal_bias="0.54"
-        app:layout_constraintStart_toStartOf="@+id/travel_button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/travel_button" />
 
     <TextView
         android:id="@+id/right3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="628dp"
         android:layout_marginBottom="15dp"
         android:text="energy+15\n    20sec"
         android:textAllCaps="false"
@@ -360,23 +349,20 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/view6"
         app:layout_constraintEnd_toEndOf="@+id/sleep_button"
-        app:layout_constraintStart_toStartOf="@+id/sleep_button"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/sleep_button" />
 
     <Button
         android:id="@+id/sleep_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="543dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
         android:text="sleep"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/travel_button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.857" />
+        app:layout_constraintStart_toEndOf="@+id/travel_button" />
 
     <TextView
         android:id="@+id/energy_text"
