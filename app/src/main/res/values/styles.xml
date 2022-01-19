@@ -6,4 +6,7 @@
     <item name="android:activityCloseEnterAnimation">@anim/fragment_close_enter</item>
     <item name="android:activityCloseExitAnimation">@anim/fragment_close_exit</item>
 </style>
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
 </resources>

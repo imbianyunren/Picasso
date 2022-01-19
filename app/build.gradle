@@ -10,7 +10,8 @@ android {
         applicationId "com.example.myapplication"
         python{
             pip{
-                install "requests"
+//                install "requests"
+                install "opencv-python"
 //                install "RemoveBg"
 //                install "removebg"
 //                install "urllib.request"
@@ -42,7 +43,6 @@ android {
             buildPython "C:/Users/acer/AppData/Local/Programs/Python/Python38/python.exe"
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -53,6 +53,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    compileSdkVersion 30
 }
 
 dependencies {

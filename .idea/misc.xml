@@ -4,13 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/drawable/shape_rectangle.xml" value="0.19791666666666666" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout-v21/activity_main_place.xml" value="0.4" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout-v21/activity_sleep.xml" value="0.4" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout-v21/typename.xml" value="0.22056159420289856" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_b.xml" value="0.1" />
-        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_input_image.xml" value="0.25808189655172414" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_input_image.xml" value="0.1" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_main_place.xml" value="0.264" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_paint.xml" value="0.13360507246376813" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_shop.xml" value="0.4" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_show_text.xml" value="0.20697463768115942" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/activity_sleep.xml" value="0.3380952380952381" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/pageb.xml" value="0.264" />
+        <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/test.xml" value="0.2" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/typename.xml" value="0.264" />
         <entry key="..\:/3_third_grade/multi/final/app/src/main/res/layout/welcome.xml" value="0.264" />
       </map>
