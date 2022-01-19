@@ -10,7 +10,7 @@
 
 
 ---
- **✍在這裡感謝我的組員們:**
+### **✍在這裡感謝我的組員們:**
 
 * **鄭雅云** 遊戲規則訂定、遊戲介面製作、幫我de超多bug
 * **郭怡靚** 實做圖片去背技術(Python+OpenCV)
@@ -18,7 +18,7 @@
 * **陳怡靜** 遊戲介面製作
 
 ---
-## 👇所有的檔案內容(APK、圖片測試檔、原始python去背程式檔、Demo影片)
+### 👇所有的檔案內容(APK、圖片測試檔、原始python去背程式檔、Demo影片)
 
 https://drive.google.com/drive/folders/1J4hm4pHZSYeYFOYKR0kfrI8vxAi9i49f?usp=sharing
 
