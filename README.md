@@ -43,6 +43,7 @@
 
 ## 程式頁面
   主畫面如下可以在這裡帶寵物吃飯、工作、旅行、睡覺，可以在商店購買食物
+  
 ![image](https://user-images.githubusercontent.com/60705979/150189220-69115e16-46ea-48b4-98db-9490ce44defb.png)
 
 
