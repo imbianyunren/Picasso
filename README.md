@@ -34,11 +34,13 @@
 
 ## 執行程式
 * 可以先到下面網址下載apk，並使用android11以上的手機/虛擬機安裝操作
+
   https://drive.google.com/file/d/10lcn9it3prBaz89E2E_kzItqjFTC47eJ/view?usp=sharing
   
 * 或是將此專案[clone](https://github.com/imbianyunren/Picasso/archive/refs/heads/main.zip)下來，並匯入android studio執行
 
 * 詳細操作方式 / demo影片
+
   https://vimeo.com/manage/videos/667870146/7482363a3a
 
 ## 程式頁面
