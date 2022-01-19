@@ -7,9 +7,20 @@
     android:background="@drawable/sleep"
     tools:context=".main_place">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="204dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop_button" />
+
     <View
         android:id="@+id/view9"
-        android:layout_width="172dp"
+        android:layout_width="202dp"
         android:layout_height="185dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
@@ -80,7 +91,7 @@
     <View
         android:id="@+id/name"
         android:layout_width="250dp"
-        android:layout_height="56dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="100dp"
@@ -95,9 +106,9 @@
     <View
         android:id="@+id/view8"
         android:layout_width="150dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/shape_rectangle"
         android:backgroundTint="#FFE8C5"
@@ -113,7 +124,7 @@
         android:layout_gravity="right"
         android:layout_marginTop="6dp"
         android:text="@string/textview"
-        android:textSize="28sp"
+        android:textSize="24sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"
@@ -126,18 +137,18 @@
         android:id="@+id/send_name2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp"
         android:text="的家"
-        android:textSize="34sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/name"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.692" />
 
     <ImageView
         android:id="@+id/show_text_imageView"
@@ -156,6 +167,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.715"
         app:srcCompat="@drawable/ic_baseline_image_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imbutton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715"
+        app:srcCompat="@drawable/img_4"
         tools:ignore="VectorDrawableCompat" />
 
     <TextView
@@ -250,7 +281,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="173dp"
-        android:text="0"
+        android:text="10"
         android:textColor="#431C10"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -391,5 +422,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/shop" />
+
+    <TextView
+        android:id="@+id/dialogtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="92dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop_button" />
+
+    <ImageView
+        android:id="@+id/travelwork"
+        android:layout_width="92dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"
+        app:srcCompat="@drawable/suitcase" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

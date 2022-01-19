@@ -36,18 +36,6 @@
         app:srcCompat="@drawable/ic_baseline_image_24"
         tools:ignore="VectorDrawableCompat" />
 
-    <ImageView
-        android:id="@+id/Zzzz"
-        android:layout_width="209dp"
-        android:layout_height="209dp"
-        android:layout_marginBottom="280dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/zzzz" />
-
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
@@ -59,5 +47,24 @@
         app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/name" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="187dp"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/dialog"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView3"
+        android:layout_width="198dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zzz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

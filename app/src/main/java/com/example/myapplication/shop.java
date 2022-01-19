@@ -66,7 +66,7 @@ public class shop extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(money_pass-12 >= 0) {
-                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a feed!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a meat!",Toast.LENGTH_LONG).show();
                     money_pass = money_pass - 12;
                     money.setText(String.valueOf(money_pass));
                     food_pass=food_pass+5;
@@ -83,7 +83,7 @@ public class shop extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(money_pass-12 >= 0) {
-                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a feed!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a hotpot!",Toast.LENGTH_LONG).show();
                     money_pass = money_pass - 12;
                     money.setText(String.valueOf(money_pass));
                     food_pass=food_pass+15;
@@ -99,7 +99,7 @@ public class shop extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(money_pass-15 >= 0) {
-                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a feed!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a cake!",Toast.LENGTH_LONG).show();
                     money_pass = money_pass - 15;
                     money.setText(String.valueOf(money_pass));
                     food_pass=food_pass+20;
@@ -116,7 +116,7 @@ public class shop extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(money_pass-20 >= 0) {
-                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a feed!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a hamburger!",Toast.LENGTH_LONG).show();
                     money_pass = money_pass - 20;
                     money.setText(String.valueOf(money_pass));
                     food_pass=food_pass+28;
@@ -132,7 +132,7 @@ public class shop extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(money_pass-25 >= 0) {
-                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a feed!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Thank you for purchasing a can!",Toast.LENGTH_LONG).show();
                     money_pass = money_pass - 25;
                     money.setText(String.valueOf(money_pass));
                     food_pass=food_pass+35;
