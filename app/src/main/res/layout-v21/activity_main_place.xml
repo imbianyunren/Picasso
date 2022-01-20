@@ -11,12 +11,11 @@
         android:id="@+id/gifImageView"
         android:layout_width="204dp"
         android:layout_height="206dp"
-        android:layout_marginTop="32dp"
         android:src="@drawable/dialog"
+        app:layout_constraintBottom_toTopOf="@+id/show_text_imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.879"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shop_button" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/view9"
@@ -66,7 +65,7 @@
         android:layout_marginLeft="9dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="55dp"
         android:background="@drawable/shape_rectangle"
         android:backgroundTint="#FFE8C5"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,14 +106,12 @@
         android:id="@+id/view8"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/shape_rectangle"
         android:backgroundTint="#FFE8C5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -127,9 +124,9 @@
         android:textSize="24sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/name"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -144,11 +141,11 @@
         android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/name"
-        app:layout_constraintVertical_bias="0.692" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/show_text_imageView"
@@ -234,11 +231,11 @@
         android:id="@+id/left1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="68dp"
         android:text="   food-5\nenergy+10"
         android:textColor="#431C10"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/eat_button"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/eat_button" />
@@ -302,13 +299,13 @@
         android:id="@+id/left2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="68dp"
         android:text="money+15\n energy-30"
         android:textColor="#431C10"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/work_button"
-        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="@+id/work_button" />
 
     <Button
@@ -328,11 +325,11 @@
         android:id="@+id/right2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="68dp"
         android:text=" food+15\nenergy-10"
         android:textColor="#431C10"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/travel_button"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/travel_button" />
@@ -341,13 +338,13 @@
         android:id="@+id/right3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="68dp"
         android:text="energy+15\n    20sec"
         android:textAllCaps="false"
         android:textColor="#431C10"
         android:textIsSelectable="false"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/sleep_button"
         app:layout_constraintStart_toStartOf="@+id/sleep_button" />
 
@@ -414,14 +411,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="92dp"
+        android:layout_marginBottom="100dp"
         android:text="TextView"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shop_button" />
+        app:layout_constraintBottom_toBottomOf="@+id/gifImageView"
+        app:layout_constraintEnd_toEndOf="@+id/gifImageView"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="@+id/gifImageView" />
 
     <ImageView
         android:id="@+id/travelwork"

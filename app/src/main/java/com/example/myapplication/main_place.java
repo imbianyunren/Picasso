@@ -158,6 +158,7 @@ public class main_place extends AppCompatActivity {
                     food.setText(String.valueOf(foodcal));
                     energycal = energycal + 10;
                     energy.setText(String.valueOf(energycal));
+                    dialogmsg.setText("好吃好吃~");
                 } else if(not_worktraveling==1 && foodcal<5) {
                     new AlertDialog.Builder(main_place.this)
                             .setTitle("已經沒有食物")//設定視窗標題

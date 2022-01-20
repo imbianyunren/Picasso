@@ -1,10 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="pppppppppppp">PPPPPPPPPPPP</string>
-    <string name="toast">toast</string>
-    <string name="ham">ham</string>
-    <string name="egg">egg</string>
-    <string name="breakfast">我的早餐</string>
+    <string name="app_name">Picasso</string>
     <string name="back_to_start">back to start</string>
     <string name="start">start</string>
     <string name="test">test</string>
