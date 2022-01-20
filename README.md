@@ -60,7 +60,7 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 ## 執行程式
 * 可以先到下面網址下載apk，並使用android11以上的手機/虛擬機安裝操作
 
-  https://drive.google.com/file/d/1uUmrHua4ZJknlK5dsmC35rGST-CC30FV/view?usp=sharing
+  https://drive.google.com/file/d/1w0P3P8d9HgjZPlTmAH6Q0_70WxRRx1sL/view?usp=drivesdk
   
 * 或是將此專案[clone](https://github.com/imbianyunren/Picasso/archive/refs/heads/main.zip)下來，並匯入android studio執行
 
