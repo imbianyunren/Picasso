@@ -51,7 +51,7 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 
 ![cat_memes_342](https://user-images.githubusercontent.com/60705979/150199177-c0aa9c81-ea54-428e-b12d-edff48d78a0e.jpg)
 
-**經過去背程式後:**
+**經過去背程式處理過後:**
 
 ![output](https://user-images.githubusercontent.com/60705979/150199298-c7fe9f38-da25-45c6-bd11-932994ddde79.png)
 
