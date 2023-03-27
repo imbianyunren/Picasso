@@ -1,12 +1,12 @@
-# 養成遊戲之叫我畢卡索
+# 養成遊戲之叫我畢卡索 
 
-這個遊戲能夠把你所畫的圖
+這個遊戲能夠把你所畫的圖 
 
-利用Python+OpenCV實現去背功能，將你上傳的圖案變成遊戲主角
+利用Python+OpenCV實現去背功能，將你上傳的圖案變成遊戲主角 
 
-並可以餵他吃飯、帶他旅遊、工作，看他睡覺
+並可以餵他吃飯、帶他旅遊、工作，看他睡覺 
 
-陪著他一起長大😆
+陪著他一起長大😆 
 
 
 ---
@@ -23,10 +23,10 @@
 https://drive.google.com/drive/folders/1J4hm4pHZSYeYFOYKR0kfrI8vxAi9i49f?usp=sharing
 
 ---
-## 開發環境/安裝需求
+## 開發環境/安裝需求 
 
 * **開發環境：**
-  Develop Environment：android studio
+  Develop Environment：android studio 
   
   Create Virtual Device：Phone -> Pixel 4
   
@@ -37,7 +37,7 @@ https://drive.google.com/drive/folders/1J4hm4pHZSYeYFOYKR0kfrI8vxAi9i49f?usp=sha
   android 11 以上(API 30)
   
 ---
-## 圖片去背技術
+## 圖片去背技術 
 
 可以參考下方連結的文件說明:
 
@@ -45,7 +45,7 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 
 ---
 
-## 實做結果
+## 實做結果 
 
 **原圖:**
 
@@ -57,19 +57,19 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 
 
 ---
-## 執行程式
-* 可以先到下面網址下載apk，並使用android11以上的手機/虛擬機安裝操作
+## 執行程式 
+* 可以先到下面網址下載apk，並使用android11以上的手機/虛擬機安裝操作 
 
   https://drive.google.com/file/d/1w0P3P8d9HgjZPlTmAH6Q0_70WxRRx1sL/view?usp=drivesdk
   
 * 或是將此專案[clone](https://github.com/imbianyunren/Picasso/archive/refs/heads/main.zip)下來，並匯入android studio執行
 
-* 詳細操作方式 / demo影片
+* 詳細操作方式 / demo影片 
 
   https://vimeo.com/manage/videos/667870146/7482363a3a
 
 ---
-## 程式頁面
+## 程式頁面 
 
   主畫面如下可以在這裡帶寵物吃飯、工作、旅行、睡覺，可以在商店購買食物(詳細內容置於報告與demo影片中)
   
@@ -77,7 +77,7 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 
 ---
 
-## 使用android studio匯入須知
+## 使用android studio匯入須知 
 
 由於程式內容與python界接，可能**需修改build.gradle(:app)內的42行**，嵌入您電腦python.exe的位置
 
@@ -85,7 +85,7 @@ https://drive.google.com/file/d/1EJ1VryHlZ9obfyUx149KSYzKZgPm1LuN/view?usp=shari
 
 ---
 
-## Meet the Team 
+## Meet the Team  
 
 許庭涵
 鄭雅云
